@@ -48,7 +48,7 @@ const PricingAreaOne = () => {
                 </ul>
                 <a
                   className='btn btn-black border-radius border-radius-0 w-100'
-                  href='#'
+                  href='/'
                 >
                   Started
                 </a>
@@ -88,7 +88,7 @@ const PricingAreaOne = () => {
                 </ul>
                 <a
                   className='btn btn-black border-radius border-radius-0 w-100'
-                  href='#'
+                  href='/'
                 >
                   Started
                 </a>
@@ -128,7 +128,7 @@ const PricingAreaOne = () => {
                 </ul>
                 <a
                   className='btn btn-black border-radius border-radius-0 w-100'
-                  href='#'
+                  href='/'
                 >
                   Started
                 </a>

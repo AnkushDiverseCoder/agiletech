@@ -42,7 +42,7 @@ const ServiceDetailsArea = () => {
                     <img src='assets/img/about/9.png' alt='img' />
                   </div>
                   <div className='details'>
-                    <a className='btn btn-base border-radius-5' href='#'>
+                    <a className='btn btn-base border-radius-5' href='/'>
                       Discover our company +
                     </a>
                   </div>
@@ -53,13 +53,13 @@ const ServiceDetailsArea = () => {
                   </h5>
                   <ul>
                     <li>
-                      <a href='#'>
+                      <a href='/'>
                         {" "}
                         Company Profile <FaAngleDoubleRight />
                       </a>
                     </li>
                     <li>
-                      <a href='#'>
+                      <a href='/'>
                         {" "}
                         Zip File Download <FaAngleDoubleRight />
                       </a>

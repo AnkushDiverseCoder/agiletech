@@ -1,7 +1,6 @@
 import React from "react";
 import AboutAreaTwo from "../components/AboutAreaTwo";
 import BannerTwo from "../components/BannerTwo";
-import BlogAreaTwo from "../components/BlogAreaTwo";
 import ContactAreaTwo from "../components/ContactAreaTwo";
 import CounterAreaTwo from "../components/CounterAreaTwo";
 import FooterTwo from "../components/FooterTwo";
@@ -40,9 +39,6 @@ const HomeTwo = () => {
 
       {/* Testimonial One */}
       <TestimonialOne />
-
-      {/* Blog Area Two */}
-      <BlogAreaTwo />
 
       {/* Footer Two */}
       <FooterTwo />

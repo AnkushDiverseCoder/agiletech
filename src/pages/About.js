@@ -1,8 +1,6 @@
 import React from "react";
 import AboutAreaOne from "../components/AboutAreaOne";
 import Breadcrumb from "../components/Breadcrumb";
-import ContactAreaOne from "../components/ContactAreaOne";
-import CounterAreaOne from "../components/CounterAreaOne";
 import FaqAreaOne from "../components/FaqAreaOne";
 import FooterOne from "../components/FooterOne";
 import NavBar from "../components/NavBar";
@@ -26,12 +24,6 @@ const About = () => {
 
       {/* Team Area One */}
       <TeamAreaOne />
-
-      {/* Counter Area One */}
-      <CounterAreaOne />
-
-      {/* Contact Area One */}
-      <ContactAreaOne />
 
       {/* Work Process One */}
       <WorkProcessOne />

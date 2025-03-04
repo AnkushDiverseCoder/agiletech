@@ -128,22 +128,22 @@ const FooterTwo = () => {
                   </ul>
                   <ul className='social-media mt-4'>
                     <li>
-                      <a href='#'>
+                      <a href='/'>
                         <FaFacebookF />
                       </a>
                     </li>
                     <li>
-                      <a href='#'>
+                      <a href='/'>
                         <FaTwitter />
                       </a>
                     </li>
                     <li>
-                      <a href='#'>
+                      <a href='/'>
                         <FaInstagram />
                       </a>
                     </li>
                     <li>
-                      <a href='#'>
+                      <a href='/'>
                         <FaYoutube />
                       </a>
                     </li>
@@ -160,9 +160,9 @@ const FooterTwo = () => {
                 <p>© Yoursitename 2023 | All Rights Reserved</p>
               </div>
               <div className='col-md-6 text-lg-end'>
-                <a href='#'>Trams &amp; Condition</a>
-                <a href='#'>Privacy Policy</a>
-                <a href='#'>Contact Us</a>
+                <a href='/'>Trams &amp; Condition</a>
+                <a href='/'>Privacy Policy</a>
+                <a href='/'>Contact Us</a>
               </div>
             </div>
           </div>

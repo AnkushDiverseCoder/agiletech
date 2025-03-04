@@ -50,7 +50,7 @@ const PricingAreaTwo = () => {
                 </ul>
                 <a
                   className='btn btn-border-gray border-radius-0 w-100'
-                  href='#'
+                  href='/'
                 >
                   Started
                 </a>
@@ -92,7 +92,7 @@ const PricingAreaTwo = () => {
                 </ul>
                 <a
                   className='btn btn-border-gray border-radius-0 w-100'
-                  href='#'
+                  href='/'
                 >
                   Started
                 </a>
@@ -134,7 +134,7 @@ const PricingAreaTwo = () => {
                 </ul>
                 <a
                   className='btn btn-border-gray border-radius-0 w-100'
-                  href='#'
+                  href='/'
                 >
                   Started
                 </a>

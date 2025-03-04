@@ -28,7 +28,7 @@ const FooterOne = () => {
                 </div>
                 <div className='col-lg-6 align-self-center text-lg-end'>
                   <input type='text' placeholder='Your e-mail address' />
-                  <a className='btn btn-black border-radius-0' href='#'>
+                  <a className='btn btn-black border-radius-0' href='/'>
                     Submit now
                   </a>
                 </div>
@@ -55,22 +55,22 @@ const FooterOne = () => {
                   </p>
                   <ul className='social-media'>
                     <li>
-                      <a href='#'>
+                      <a href='/'>
                         <FaFacebookF />
                       </a>
                     </li>
                     <li>
-                      <a href='#'>
+                      <a href='/'>
                         <FaTwitter />
                       </a>
                     </li>
                     <li>
-                      <a href='#'>
+                      <a href='/'>
                         <FaInstagram />
                       </a>
                     </li>
                     <li>
-                      <a href='#'>
+                      <a href='/'>
                         <FaYoutube />
                       </a>
                     </li>
@@ -204,9 +204,9 @@ const FooterOne = () => {
                 <p>© Yoursitename 2023 | All Rights Reserved</p>
               </div>
               <div className='col-md-6 text-lg-end'>
-                <a href='#'>Trams &amp; Condition</a>
-                <a href='#'>Privacy Policy</a>
-                <a href='#'>Contact Us</a>
+                <a href='/'>Trams &amp; Condition</a>
+                <a href='/'>Privacy Policy</a>
+                <a href='/'>Contact Us</a>
               </div>
             </div>
           </div>

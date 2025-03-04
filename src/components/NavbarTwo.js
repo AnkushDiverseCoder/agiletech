@@ -85,7 +85,7 @@ const NavbarTwo = () => {
           >
             <ul className='navbar-nav menu-open text-lg-end'>
               <li className='menu-item-has-children'>
-                <a href='#'>Home</a>
+                <a href='/'>Home</a>
                 <ul className='sub-menu'>
                   <li>
                     <Link to='/'>Home 01</Link>
@@ -105,7 +105,7 @@ const NavbarTwo = () => {
                 </ul>
               </li>
               <li className='menu-item-has-children'>
-                <a href='#'>Service</a>
+                <a href='/'>Service</a>
                 <ul className='sub-menu'>
                   <li>
                     <Link to='/service'>Service</Link>
@@ -116,7 +116,7 @@ const NavbarTwo = () => {
                 </ul>
               </li>
               <li className='menu-item-has-children'>
-                <a href='#'>Pages</a>
+                <a href='/'>Pages</a>
                 <ul className='sub-menu'>
                   <li>
                     <Link to='/about'>About Us</Link>
@@ -133,7 +133,7 @@ const NavbarTwo = () => {
                 </ul>
               </li>
               <li className='menu-item-has-children'>
-                <a href='#'>Blog</a>
+                <a href='/'>Blog</a>
                 <ul className='sub-menu'>
                   <li>
                     <Link to='/blog'>Blog</Link>

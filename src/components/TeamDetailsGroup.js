@@ -42,27 +42,27 @@ const TeamDetailsGroup = () => {
                 </div>
                 <ul className='social-media style-base mt-4 pt-2'>
                   <li>
-                    <a href='#'>
+                    <a href='/'>
                       <FaFacebookF aria-hidden='true' />
                     </a>
                   </li>
                   <li>
-                    <a href='#'>
+                    <a href='/'>
                       <FaTwitter aria-hidden='true' />
                     </a>
                   </li>
                   <li>
-                    <a href='#'>
+                    <a href='/'>
                       <FaInstagram aria-hidden='true' />
                     </a>
                   </li>
                   <li>
-                    <a href='#'>
+                    <a href='/'>
                       <FaPinterest aria-hidden='true' />
                     </a>
                   </li>
                   <li>
-                    <a href='#'>
+                    <a href='/'>
                       <FaLinkedinIn aria-hidden='true' />
                     </a>
                   </li>
