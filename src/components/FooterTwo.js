@@ -14,7 +14,7 @@ import { Link } from "react-router-dom";
 const FooterTwo = () => {
   return (
     <>
-      {/* ================== Footer Two Start ==================*/}
+      {/* ================== Footer Two Start ================== */}
       <footer className='footer-area footer-area-2 bg-gray mt-0 pd-top-120'>
         <div className='container'>
           <div className='row'>
@@ -25,7 +25,7 @@ const FooterTwo = () => {
                 </div>
                 <div className='details'>
                   <p>
-                    Melbourne is simply is dumiomy is text Lorem Ipsum is simply
+                    Elevate your brand with our cutting-edge digital marketing and web solutions.
                   </p>
                   <div className='subscribe mt-4'>
                     <input type='text' placeholder='E-mail' />
@@ -36,23 +36,24 @@ const FooterTwo = () => {
                 </div>
               </div>
             </div>
+
             <div className='col-lg-3 col-md-6 ps-xl-5'>
               <div className='widget widget_nav_menu'>
-                <h4 className='widget-title'>Our Service</h4>
+                <h4 className='widget-title'>Our Services</h4>
                 <ul>
                   <li>
                     <Link to='/service'>
-                      <FaChevronRight /> Ui Design
+                      <FaChevronRight /> UI/UX Design
                     </Link>
                   </li>
                   <li>
                     <Link to='/service'>
-                      <FaChevronRight /> Web design
+                      <FaChevronRight /> Web Development
                     </Link>
                   </li>
                   <li>
                     <Link to='/service'>
-                      <FaChevronRight /> Digital marketing{" "}
+                      <FaChevronRight /> Digital Marketing
                     </Link>
                   </li>
                   <li>
@@ -62,57 +63,49 @@ const FooterTwo = () => {
                   </li>
                   <li>
                     <Link to='/service'>
-                      <FaChevronRight /> Pc Repairs
+                      <FaChevronRight /> SEO Optimization
                     </Link>
                   </li>
                   <li>
                     <Link to='/service'>
-                      <FaChevronRight /> Web Development
+                      <FaChevronRight /> Branding & Strategy
                     </Link>
                   </li>
                 </ul>
               </div>
             </div>
+
             <div className='col-lg-3 col-md-6 ps-xl-5'>
               <div className='widget widget_nav_menu'>
-                <h4 className='widget-title'>Pay links</h4>
+                <h4 className='widget-title fancy-heading'>Quick Links</h4>
                 <ul>
                   <li>
-                    <Link to='/service'>
-                      <FaChevronRight /> Credit industrys
+                    <Link to='/' className='fancy-link'>
+                      <FaChevronRight /> Home
                     </Link>
                   </li>
                   <li>
-                    <Link to='/service'>
-                      <FaChevronRight /> Reasearch sector
+                    <Link to='/about' className='fancy-link'>
+                      <FaChevronRight /> About Us
                     </Link>
                   </li>
                   <li>
-                    <Link to='/service'>
-                      <FaChevronRight /> Finance Sector{" "}
+                    <Link to='/contact' className='fancy-link'>
+                      <FaChevronRight /> Contact Us
                     </Link>
                   </li>
                   <li>
-                    <Link to='/service'>
-                      <FaChevronRight /> Credit industrys
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to='/service'>
-                      <FaChevronRight /> Reasearch sector
-                    </Link>
-                  </li>
-                  <li>
-                    <Link to='/service'>
-                      <FaChevronRight /> Finance Sector
+                    <Link to='/services' className='fancy-link'>
+                      <FaChevronRight /> Services
                     </Link>
                   </li>
                 </ul>
               </div>
             </div>
+
             <div className='col-lg-3 col-md-6'>
               <div className='widget widget-recent-post'>
-                <h4 className='widget-title'>Contact us</h4>
+                <h4 className='widget-title'>Contact Us</h4>
                 <div className='widget widget_contact'>
                   <ul className='details'>
                     <li>
@@ -153,23 +146,30 @@ const FooterTwo = () => {
             </div>
           </div>
         </div>
+
         <div className='footer-bottom'>
           <div className='container'>
             <div className='row'>
               <div className='col-md-6 align-self-center'>
-                <p>© Yoursitename 2023 | All Rights Reserved</p>
+                <p>
+                  © <a href='https://illustricitymedia.in/' target='_blank' rel='noopener noreferrer'>
+                    Illustricity Media
+                  </a> - <a href='https://www.linkedin.com/in/thakur-ankush' target='_blank' rel='noopener noreferrer'>
+                    T. Ankush
+                  </a> | All Rights Reserved
+                </p>
               </div>
               <div className='col-md-6 text-lg-end'>
-                <a href='/'>Trams &amp; Condition</a>
+                <a href='/'>Terms &amp; Conditions</a>
                 <a href='/'>Privacy Policy</a>
-                <a href='/'>Contact Us</a>
+                <a href='/contact'>Contact Us</a>
               </div>
             </div>
           </div>
         </div>
       </footer>
+      {/* ================== Footer Two End ================== */}
 
-      {/* ================== Footer Two  end ==================*/}
     </>
   );
 };

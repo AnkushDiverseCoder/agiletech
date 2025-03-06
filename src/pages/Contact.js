@@ -1,14 +1,14 @@
 import React from "react";
 import Breadcrumb from "../components/Breadcrumb";
 import ContactMain from "../components/ContactMain";
-import FooterOne from "../components/FooterOne";
-import NavBar from "../components/NavBar";
+import FooterTwo from "../components/FooterTwo";
+import NavbarTwo from "../components/NavbarTwo";
 
 const Contact = () => {
   return (
     <>
       {/* Navigation Bar */}
-      <NavBar />
+      <NavbarTwo />
 
       {/* Navigation Bar */}
       <Breadcrumb title={"Contact"} />
@@ -17,7 +17,7 @@ const Contact = () => {
       <ContactMain />
 
       {/* Footer One */}
-      <FooterOne />
+      <FooterTwo />
     </>
   );
 };

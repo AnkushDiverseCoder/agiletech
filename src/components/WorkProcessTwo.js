@@ -9,66 +9,73 @@ const WorkProcessTwo = () => {
           <div className='section-title text-center'>
             <h6 className='sub-title'>OUR SIMPLE PROCESS</h6>
             <h2 className='title'>
-              World <span>Best Step</span> Our It Process
+              Elevate <span>Your Brand</span> with Our Proven Strategy
             </h2>
           </div>
           <div className='row'>
+            {/* Step 1: Market Research */}
             <div className='col-xl-3 col-md-6'>
               <div className='single-work-process-inner'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/9.svg' alt='img' />
+                  <img src='assets/img/icon/9.svg' alt='Market Research' />
                 </div>
                 <div className='details'>
-                  <p className='process-count'>Work 01</p>
-                  <h5 className='mb-3'>Software Research</h5>
+                  <p className='process-count'>Step 01</p>
+                  <h5 className='mb-3'>Market Research</h5>
                   <p className='content'>
-                    Research ipsum dolor sit consec tetur sed diam in the
-                    aliquam tempor
+                    We analyze market trends, competitors, and audience insights
+                    to craft a data-driven strategy.
                   </p>
                 </div>
               </div>
             </div>
+
+            {/* Step 2: Campaign Development */}
             <div className='col-xl-3 col-md-6'>
               <div className='single-work-process-inner'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                  <img src='assets/img/icon/10.svg' alt='Campaign Development' />
                 </div>
                 <div className='details'>
-                  <p className='process-count'>Work 02</p>
-                  <h5 className='mb-3'>Create Programs</h5>
+                  <p className='process-count'>Step 02</p>
+                  <h5 className='mb-3'>Campaign Development</h5>
                   <p className='content'>
-                    Create ipsum dolor sit consec tetur sed diam in the aliquam
-                    tempor
+                    Our team creates engaging content, ad creatives, and SEO strategies
+                    to enhance your brand presence.
                   </p>
                 </div>
               </div>
             </div>
+
+            {/* Step 3: Digital Execution */}
             <div className='col-xl-3 col-md-6'>
               <div className='single-work-process-inner'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/11.svg' alt='img' />
+                  <img src='assets/img/icon/12.svg' alt='Digital Execution' />
                 </div>
                 <div className='details'>
-                  <p className='process-count'>Work 03</p>
-                  <h5 className='mb-3'>Develope Software</h5>
+                  <p className='process-count'>Step 03</p>
+                  <h5 className='mb-3'>Digital Execution</h5>
                   <p className='content'>
-                    Develope ipsum dolor sit consec tetur sed diam in the
-                    aliquam tempor
+                    We launch social media ads, SEO campaigns, and PPC strategies,
+                    optimizing in real time for success.
                   </p>
                 </div>
               </div>
             </div>
+
+            {/* Step 4: Performance Analysis */}
             <div className='col-xl-3 col-md-6'>
               <div className='single-work-process-inner'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/12.svg' alt='img' />
+                  <img src='assets/img/icon/11.svg' alt='Performance Analysis' />
                 </div>
                 <div className='details'>
-                  <p className='process-count'>Work 04</p>
-                  <h5 className='mb-3'>Shop software</h5>
+                  <p className='process-count'>Step 04</p>
+                  <h5 className='mb-3'>Performance Analysis</h5>
                   <p className='content'>
-                    Shop ipsum dolor sit consec tetur Malesuada sed diam in the
-                    aliquam tempor
+                    We track campaign results, refine strategies, and scale high-performing
+                    marketing efforts for growth.
                   </p>
                 </div>
               </div>
@@ -77,6 +84,7 @@ const WorkProcessTwo = () => {
         </div>
       </div>
       {/* ==================== Work Process Two end ====================*/}
+
     </>
   );
 };

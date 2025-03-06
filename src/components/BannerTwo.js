@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import { FaPlus } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import ModalVideo from "react-modal-video";
+
+// import ModalVideo from "react-modal-video";
 const BannerTwo = () => {
-  const [isOpen, setOpen] = useState(false);
+  // const [isOpen, setOpen] = useState(false);
   return (
     <>
       {/* ================== BannerTwo Start ==================*/}
@@ -30,7 +31,7 @@ const BannerTwo = () => {
                   data-aos-duration='1500'
                 >
                   {" "}
-                  Revolutionize Your <span>Workflow</span> With SaaS
+                  Get Your Brand <span>Heard</span> With Digital Shout
                 </h2>
                 <p
                   className='content pe-xl-5 '
@@ -51,7 +52,7 @@ const BannerTwo = () => {
                 >
                   Discover More <FaPlus />
                 </Link>
-                <div
+                {/* <div
                   className='d-inline-block align-self-center '
                   data-aos='fade-right'
                   data-aos-delay='350'
@@ -66,14 +67,14 @@ const BannerTwo = () => {
                   </span>
 
                   <div></div>
-                </div>
-                <ModalVideo
+                </div> */}
+                {/* <ModalVideo
                   channel='youtube'
                   autoplay
                   isOpen={isOpen}
                   videoId='XM6kTQPzzpQ'
                   onClose={() => setOpen(false)}
-                />
+                /> */}
               </div>
             </div>
             <div

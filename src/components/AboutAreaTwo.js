@@ -24,7 +24,7 @@ const AboutAreaTwo = () => {
               </div>
             </div>
             <div
-              className='col-lg-6 '
+              className='col-lg-6'
               data-aos='fade-left'
               data-aos-delay='100'
               data-aos-duration='1500'
@@ -32,45 +32,45 @@ const AboutAreaTwo = () => {
               <div className='section-title mb-0'>
                 <h6 className='sub-title'>ABOUT US</h6>
                 <h2 className='title'>
-                  Empowering businesses with SaaS technology
+                  Elevating Brands with Cutting-Edge Digital Marketing
                 </h2>
                 <p className='content mb-4'>
-                  You can access SaaS applications through a web browser or
-                  mobile app, as long as you have an internet connection.
+                  We specialize in innovative digital marketing strategies that enhance
+                  brand visibility, drive engagement, and accelerate business growth.
                 </p>
                 <div className='row'>
                   <div className='col-md-6'>
                     <ul className='single-list-inner style-check style-heading style-check mb-3'>
                       <li>
-                        <FaCheckCircle /> Mistakes To Avoid to the
+                        <FaCheckCircle /> Data-Driven Marketing Strategies
                       </li>
                       <li>
-                        <FaCheckCircle /> Your Startup industry stan
+                        <FaCheckCircle /> Optimized SEO & Content Marketing
                       </li>
                     </ul>
                   </div>
                   <div className='col-md-6'>
                     <ul className='single-list-inner style-check style-heading style-check mb-3'>
                       <li>
-                        <FaCheckCircle /> Mistakes To Avoid to the
+                        <FaCheckCircle /> ROI-Focused Paid Advertising
                       </li>
                       <li>
-                        <FaCheckCircle /> Your Startup industry stan
+                        <FaCheckCircle /> Social Media Growth & Management
                       </li>
                     </ul>
                   </div>
                 </div>
                 <p className='content'>
-                  SaaS providers typically invest heavily in security measures
-                  to protect customer data, such as encryption and multi-factor
-                  authentication. However, it is important to research and
-                  choose a reputable provider and also to ensure that
+                  Our team leverages advanced tools and industry insights to craft
+                  personalized marketing campaigns that deliver measurable results.
+                  Partner with us to transform your online presence and scale your business.
                 </p>
                 <Link className='btn btn-border-base' to='/about'>
                   Discover More <FaPlus />
                 </Link>
               </div>
             </div>
+
           </div>
         </div>
       </div>

@@ -1,11 +1,11 @@
 import React from "react";
 import AboutAreaTwo from "../components/AboutAreaTwo";
 import BannerTwo from "../components/BannerTwo";
-import ContactAreaTwo from "../components/ContactAreaTwo";
-import CounterAreaTwo from "../components/CounterAreaTwo";
+// import ContactAreaTwo from "../components/ContactAreaTwo";
+// import CounterAreaTwo from "../components/CounterAreaTwo";
 import FooterTwo from "../components/FooterTwo";
 import NavbarTwo from "../components/NavbarTwo";
-import PricingAreaTwo from "../components/PricingAreaTwo";
+// import PricingAreaTwo from "../components/PricingAreaTwo";
 import ServiceAreaTwo from "../components/ServiceAreaTwo";
 import TestimonialOne from "../components/TestimonialOne";
 import WorkProcessTwo from "../components/WorkProcessTwo";
@@ -26,13 +26,13 @@ const HomeTwo = () => {
       <ServiceAreaTwo />
 
       {/* Pricing Area Two */}
-      <PricingAreaTwo />
+      {/* <PricingAreaTwo /> */}
 
       {/* Counter Area Two */}
-      <CounterAreaTwo />
+      {/* <CounterAreaTwo /> */}
 
       {/* Contact Area Two */}
-      <ContactAreaTwo />
+      {/* <ContactAreaTwo /> */}
 
       {/* Work Process Two */}
       <WorkProcessTwo />

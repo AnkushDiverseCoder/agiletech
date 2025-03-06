@@ -1,14 +1,14 @@
 import React from "react";
 import Breadcrumb from "../components/Breadcrumb";
-import FooterOne from "../components/FooterOne";
-import NavBar from "../components/NavBar";
+import FooterTwo from "../components/FooterTwo";
+import NavbarTwo from "../components/NavbarTwo";
 import ServiceDetailsArea from "../components/ServiceDetailsArea";
 
 const ServiceDetails = () => {
   return (
     <>
       {/* Navigation Bar */}
-      <NavBar />
+      <NavbarTwo />
 
       {/* Navigation Bar */}
       <Breadcrumb title={"Service Details"} />
@@ -17,7 +17,7 @@ const ServiceDetails = () => {
       <ServiceDetailsArea />
 
       {/* Footer One */}
-      <FooterOne />
+      <FooterTwo />
     </>
   );
 };

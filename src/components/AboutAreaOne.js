@@ -5,7 +5,7 @@ const AboutAreaOne = () => {
     <>
       {/* ================== AboutAreaOne start  ==================*/}
       <div className='about-area pd-top-120'>
-        <div className='container'>
+        <div className='container '>
           <div className='row'>
             <div className='col-lg-6'>
               <div
@@ -37,7 +37,7 @@ const AboutAreaOne = () => {
               </div>
             </div>
             <div
-              className='col-lg-6 '
+              className='col-lg-6'
               data-aos='fade-left'
               data-aos-delay='100'
               data-aos-duration='1500'
@@ -45,12 +45,10 @@ const AboutAreaOne = () => {
               <div className='section-title mt-5 mt-lg-0'>
                 <h6 className='sub-title'>ABOUT US</h6>
                 <h2 className='title'>
-                  It Is A Critical Component Of <span>Modern</span> Businesses
+                  Empowering <span>Brands</span> in the Digital Age
                 </h2>
                 <p className='content mb-4 mb-xl-5'>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry Loreaim Ipsum has been the industry's
-                  standard dummy
+                  At [Your Company Name], we specialize in delivering impactful digital marketing strategies that elevate brands and help them thrive in the online world.
                 </p>
                 <div className='row'>
                   <div className='col-md-6'>
@@ -59,10 +57,9 @@ const AboutAreaOne = () => {
                         <img src='assets/img/icon/2.png' alt='img' />
                       </div>
                       <div className='details'>
-                        <h5>Our Ambition</h5>
+                        <h5>Our Vision</h5>
                         <p>
-                          Lorem is Ipsum is simply is design iomyi is text Lorem
-                          Ipsum is simply is our busi designer is our country.
+                          To inspire growth and innovation for businesses by providing cutting-edge digital marketing solutions.
                         </p>
                       </div>
                     </div>
@@ -73,10 +70,9 @@ const AboutAreaOne = () => {
                         <img src='assets/img/icon/3.png' alt='img' />
                       </div>
                       <div className='details'>
-                        <h5>Our Ambition</h5>
+                        <h5>Our Mission</h5>
                         <p>
-                          Lorem is Ipsum is simply is design iomyi is text Lorem
-                          Ipsum is simply is our busi designer is our country.
+                          To deliver results-driven marketing strategies that empower businesses to succeed in the digital landscape.
                         </p>
                       </div>
                     </div>
@@ -84,6 +80,8 @@ const AboutAreaOne = () => {
                 </div>
               </div>
             </div>
+
+
           </div>
         </div>
       </div>

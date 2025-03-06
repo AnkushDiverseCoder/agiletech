@@ -2,16 +2,16 @@ import React from "react";
 import AboutAreaOne from "../components/AboutAreaOne";
 import Breadcrumb from "../components/Breadcrumb";
 import FaqAreaOne from "../components/FaqAreaOne";
-import FooterOne from "../components/FooterOne";
-import NavBar from "../components/NavBar";
-import TeamAreaOne from "../components/TeamAreaOne";
-import WorkProcessOne from "../components/WorkProcessOne";
+import FooterTwo from "../components/FooterTwo";
+import NavbarTwo from "../components/NavbarTwo";
+// import TeamAreaOne from "../components/TeamAreaOne";
+import WorkProcessTwo from "../components/WorkProcessTwo";
 
 const About = () => {
   return (
     <>
       {/* Navigation Bar */}
-      <NavBar />
+      <NavbarTwo />
 
       {/* Navigation Bar */}
       <Breadcrumb title={"About Us"} />
@@ -23,13 +23,13 @@ const About = () => {
       <FaqAreaOne />
 
       {/* Team Area One */}
-      <TeamAreaOne />
+      {/* <TeamAreaOne /> */}
 
       {/* Work Process One */}
-      <WorkProcessOne />
+      <WorkProcessTwo />
 
       {/* Footer One */}
-      <FooterOne />
+      <FooterTwo />
     </>
   );
 };

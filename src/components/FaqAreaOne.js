@@ -3,7 +3,7 @@ import React from "react";
 const FaqAreaOne = () => {
   return (
     <>
-      {/*==================== Faq area start ====================*/}
+      {/*==================== FAQ Area Start ====================*/}
       <div
         className='faq-area faq-area-margin-top bg-cover pd-top-90 pd-bottom-110'
         style={{ backgroundImage: 'url("./assets/img/bg/3.png")' }}
@@ -38,12 +38,10 @@ const FaqAreaOne = () => {
               <div className='section-title mb-0 mt-4 mt-lg-0'>
                 <h6 className='sub-title'>SOME FAQ'S</h6>
                 <h2 className='title'>
-                  Creating <span>Digital</span> Masterpieces
+                  Your Digital Marketing <span>Partner</span>
                 </h2>
                 <p className='content'>
-                  It is a long established fact that a reader will be distr
-                  acted bioiiy the end gail designa readable content of a page
-                  when looking.
+                  Discover answers to the most frequently asked questions about digital marketing and how we can help your business grow online.
                 </p>
               </div>
               <div
@@ -60,7 +58,7 @@ const FaqAreaOne = () => {
                       aria-expanded='true'
                       aria-controls='collapseOne'
                     >
-                      What services do you offer?
+                      What digital marketing services do you offer?
                     </button>
                   </h2>
                   <div
@@ -70,9 +68,7 @@ const FaqAreaOne = () => {
                     data-bs-parent='#accordionExample'
                   >
                     <div className='accordion-body'>
-                      Many desktop publishing packages and web page editors now
-                      use Lorem Ipsum as their default model text, search for
-                      'lorem ipsum' will uncover
+                      We offer a wide range of digital marketing services, including SEO, Social Media Management, PPC Advertising, Content Marketing, and Web Design. Our strategies are tailored to meet your business goals.
                     </div>
                   </div>
                 </div>
@@ -86,7 +82,7 @@ const FaqAreaOne = () => {
                       aria-expanded='false'
                       aria-controls='collapseTwo'
                     >
-                      How long does it take for you to complete a project?
+                      How long does it take to see results from digital marketing?
                     </button>
                   </h2>
                   <div
@@ -96,9 +92,7 @@ const FaqAreaOne = () => {
                     data-bs-parent='#accordionExample'
                   >
                     <div className='accordion-body'>
-                      Many desktop publishing packages and web page editors now
-                      use Lorem Ipsum as their default model text, search for
-                      'lorem ipsum' will uncover
+                      Depending on the service, results can vary. SEO typically takes 3-6 months, while PPC advertising can show immediate results. Our team works to implement strategies that deliver measurable results as quickly as possible.
                     </div>
                   </div>
                 </div>
@@ -112,7 +106,7 @@ const FaqAreaOne = () => {
                       aria-expanded='false'
                       aria-controls='collapseThree'
                     >
-                      How much does it cost to work with your agency?
+                      How much does digital marketing cost?
                     </button>
                   </h2>
                   <div
@@ -122,9 +116,55 @@ const FaqAreaOne = () => {
                     data-bs-parent='#accordionExample'
                   >
                     <div className='accordion-body'>
-                      Many desktop publishing packages and web page editors now
-                      use Lorem Ipsum as their default model text, search for
-                      'lorem ipsum' will uncover
+                      The cost of digital marketing depends on the services you choose and the scope of your campaign. We offer customized packages that suit your needs, whether you're just starting or looking to scale up.
+                    </div>
+                  </div>
+                </div>
+                <div className='accordion-item'>
+                  <h2 className='accordion-header' id='headingFour'>
+                    <button
+                      className='accordion-button collapsed'
+                      type='button'
+                      data-bs-toggle='collapse'
+                      data-bs-target='#collapseFour'
+                      aria-expanded='false'
+                      aria-controls='collapseFour'
+                    >
+                      Do you provide analytics and reports for campaigns?
+                    </button>
+                  </h2>
+                  <div
+                    id='collapseFour'
+                    className='accordion-collapse collapse'
+                    aria-labelledby='headingFour'
+                    data-bs-parent='#accordionExample'
+                  >
+                    <div className='accordion-body'>
+                      Yes, we provide detailed analytics and reports on your campaign's performance. Our team will regularly share progress updates to ensure that you're informed every step of the way.
+                    </div>
+                  </div>
+                </div>
+                <div className='accordion-item'>
+                  <h2 className='accordion-header' id='headingFive'>
+                    <button
+                      className='accordion-button collapsed'
+                      type='button'
+                      data-bs-toggle='collapse'
+                      data-bs-target='#collapseFive'
+                      aria-expanded='false'
+                      aria-controls='collapseFive'
+                    >
+                      How do I get started with your agency?
+                    </button>
+                  </h2>
+                  <div
+                    id='collapseFive'
+                    className='accordion-collapse collapse'
+                    aria-labelledby='headingFive'
+                    data-bs-parent='#accordionExample'
+                  >
+                    <div className='accordion-body'>
+                      Getting started is simple. Reach out to us through the contact form or give us a call, and we'll schedule a consultation to discuss your business goals and how we can help you succeed online.
                     </div>
                   </div>
                 </div>
@@ -133,7 +173,8 @@ const FaqAreaOne = () => {
           </div>
         </div>
       </div>
-      {/* ==================== Faq area end ====================*/}
+      {/* ==================== FAQ Area End ==================== */}
+
     </>
   );
 };
