@@ -3,12 +3,12 @@ import AboutAreaTwo from "../components/AboutAreaTwo";
 import BannerTwo from "../components/BannerTwo";
 // import ContactAreaTwo from "../components/ContactAreaTwo";
 // import CounterAreaTwo from "../components/CounterAreaTwo";
-import FooterTwo from "../components/FooterTwo";
 import NavbarTwo from "../components/NavbarTwo";
 // import PricingAreaTwo from "../components/PricingAreaTwo";
 import ServiceAreaTwo from "../components/ServiceAreaTwo";
 import TestimonialOne from "../components/TestimonialOne";
 import WorkProcessTwo from "../components/WorkProcessTwo";
+import FooterOne from "../components/FooterOne";
 
 const HomeTwo = () => {
   return (
@@ -41,7 +41,7 @@ const HomeTwo = () => {
       <TestimonialOne />
 
       {/* Footer Two */}
-      <FooterTwo />
+      <FooterOne />
     </>
   );
 };

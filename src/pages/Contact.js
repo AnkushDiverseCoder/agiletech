@@ -1,8 +1,8 @@
 import React from "react";
 import Breadcrumb from "../components/Breadcrumb";
 import ContactMain from "../components/ContactMain";
-import FooterTwo from "../components/FooterTwo";
 import NavbarTwo from "../components/NavbarTwo";
+import FooterOne from "../components/FooterOne";
 
 const Contact = () => {
   return (
@@ -17,7 +17,7 @@ const Contact = () => {
       <ContactMain />
 
       {/* Footer One */}
-      <FooterTwo />
+      <FooterOne />
     </>
   );
 };

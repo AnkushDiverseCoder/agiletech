@@ -2,10 +2,10 @@ import React from "react";
 import AboutAreaOne from "../components/AboutAreaOne";
 import Breadcrumb from "../components/Breadcrumb";
 import FaqAreaOne from "../components/FaqAreaOne";
-import FooterTwo from "../components/FooterTwo";
 import NavbarTwo from "../components/NavbarTwo";
 // import TeamAreaOne from "../components/TeamAreaOne";
 import WorkProcessTwo from "../components/WorkProcessTwo";
+import FooterOne from "../components/FooterOne";
 
 const About = () => {
   return (
@@ -29,7 +29,7 @@ const About = () => {
       <WorkProcessTwo />
 
       {/* Footer One */}
-      <FooterTwo />
+      <FooterOne />
     </>
   );
 };

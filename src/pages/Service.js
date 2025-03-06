@@ -1,9 +1,9 @@
 import React from "react";
 import Breadcrumb from "../components/Breadcrumb";
-import FooterTwo from "../components/FooterTwo";
 import NavbarTwo from "../components/NavbarTwo";
 // import PricingAreaOne from "../components/PricingAreaOne";
 import ServiceAreaGroup from "../components/ServiceAreaGroup";
+import FooterOne from "../components/FooterOne";
 
 const Service = () => {
   return (
@@ -21,7 +21,7 @@ const Service = () => {
       {/* <PricingAreaOne /> */}
 
       {/* Footer One */}
-      <FooterTwo />
+      <FooterOne />
     </>
   );
 };

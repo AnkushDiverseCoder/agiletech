@@ -1,8 +1,8 @@
 import React from "react";
 import Breadcrumb from "../components/Breadcrumb";
-import FooterTwo from "../components/FooterTwo";
 import NavbarTwo from "../components/NavbarTwo";
 import ServiceDetailsArea from "../components/ServiceDetailsArea";
+import FooterOne from "../components/FooterOne";
 
 const ServiceDetails = () => {
   return (
@@ -17,7 +17,7 @@ const ServiceDetails = () => {
       <ServiceDetailsArea />
 
       {/* Footer One */}
-      <FooterTwo />
+      <FooterOne />
     </>
   );
 };
